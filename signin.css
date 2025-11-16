@@ -1,0 +1,122 @@
+/* signin.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  background-color: #202124;
+  color: #e8eaed;
+}
+
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signin-card {
+  background-color: #303134;
+  padding: 40px;
+  border-radius: 12px;
+  width: 360px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header img {
+  width: 40px;
+  height: auto;
+  margin-right: 8px;
+}
+
+.mail-text {
+  font-size: 22px;
+  font-weight: 500;
+  color: #e8eaed;
+}
+
+.signin-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.subtext {
+  color: #bdc1c6;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 14px 12px;
+  border-radius: 4px;
+  border: 1px solid #5f6368;
+  background-color: #202124;
+  color: #e8eaed;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+input[type="email"]::placeholder {
+  color: #9aa0a6;
+}
+
+.forgot-link {
+  color: #8ab4f8;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 12px;
+  color: #9aa0a6;
+}
+
+.learn-link {
+  color: #8ab4f8;
+  cursor: pointer;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.create-btn {
+  color: #8ab4f8;
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.create-btn:hover {
+  text-decoration: underline;
+}
+
+.next-btn {
+  background-color: #8ab4f8;
+  color: #202124;
+  padding: 10px 22px;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background-color: #93c0fc;
+}

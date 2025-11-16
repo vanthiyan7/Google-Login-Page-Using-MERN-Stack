@@ -1,0 +1,99 @@
+/* passcreate.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  background-color: #202124;
+  color: #e8eaed;
+}
+
+.password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.password-card {
+  background-color: #303134;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  border-radius: 12px;
+  width: 700px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.password-left {
+  width: 50%;
+  padding-right: 30px;
+  border-right: 1px solid #5f6368;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.gmail-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e8eaed;
+  margin-bottom: 20px;
+}
+
+.password-title {
+  font-size: 22px;
+  margin: 0 0 10px 0;
+}
+
+.password-subtitle {
+  font-size: 14px;
+  color: #bdc1c6;
+  margin-bottom: 20px;
+}
+
+.password-right {
+  width: 50%;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.password-input {
+  background-color: #202124;
+  color: #e8eaed;
+  border: 1px solid #5f6368;
+  border-radius: 4px;
+  padding: 14px 12px;
+  font-size: 16px;
+  margin-bottom: 14px;
+  width: 100%;
+}
+
+.password-input::placeholder {
+  color: #9aa0a6;
+}
+
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.next-btn {
+  background-color: #8ab4f8;
+  color: #202124;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background-color: #93c0fc;
+}
